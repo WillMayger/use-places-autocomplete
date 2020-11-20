@@ -1,6 +1,6 @@
 {
   "name": "use-places-autocomplete",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A react hook for getting predictions from the Google Places Autocomplete Service",
   "main": "dist/use-places-autocomplete.js",
   "scripts": {
@@ -22,7 +22,8 @@
     "prettier": "^2.1.2",
     "rollup": "^2.33.3",
     "tslib": "^2.0.3",
-    "typescript": "^4.0.5"
+    "typescript": "^4.0.5",
+    "@types/googlemaps": "^3.40.3"
   },
   "keywords": [
     "usePlacesAutocomplete",
@@ -42,8 +43,5 @@
   "bugs": {
     "url": "https://github.com/WillMayger/use-places-autocomplete/issues"
   },
-  "homepage": "https://github.com/WillMayger/use-places-autocomplete#readme",
-  "dependencies": {
-    "@types/googlemaps": "^3.40.3"
-  }
+  "homepage": "https://github.com/WillMayger/use-places-autocomplete#readme"
 }
