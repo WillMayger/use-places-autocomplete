@@ -1,5 +1,5 @@
 {
-  "name": "use-places-autocomplete",
+  "name": "@atomap/use-places-autocomplete",
   "version": "1.0.4",
   "description": "A react hook for getting predictions from the Google Places Autocomplete Service",
   "main": "dist/use-places-autocomplete.js",
