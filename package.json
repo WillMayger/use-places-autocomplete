@@ -1,0 +1,49 @@
+{
+  "name": "use-places-autocomplete",
+  "version": "1.0.3",
+  "description": "A react hook for getting predictions from the Google Places Autocomplete Service",
+  "main": "dist/use-places-autocomplete.js",
+  "scripts": {
+    "start": "node dist/use-places-autocomplete.js",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-typescript": "^6.1.0",
+    "babel-loader": "^8.2.1",
+    "prettier": "^2.1.2",
+    "rollup": "^2.33.3",
+    "tslib": "^2.0.3",
+    "typescript": "^4.0.5"
+  },
+  "keywords": [
+    "usePlacesAutocomplete",
+    "react",
+    "hooks",
+    "use-places-autocomplete",
+    "Google Places Autocomplete Service",
+    "Google Places Autocomplete Service react hook",
+    "Google autocomplete react hook"
+  ],
+  "author": "Will Mayger",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WillMayger/use-places-autocomplete.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WillMayger/use-places-autocomplete/issues"
+  },
+  "homepage": "https://github.com/WillMayger/use-places-autocomplete#readme",
+  "dependencies": {
+    "@types/googlemaps": "^3.40.3"
+  }
+}

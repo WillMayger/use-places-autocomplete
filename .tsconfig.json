@@ -1,0 +1,5 @@
+{
+  "compilerOptions": {
+    "types": ["googlemaps", "es2020"]
+  }
+}
