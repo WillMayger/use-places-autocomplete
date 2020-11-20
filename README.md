@@ -118,5 +118,5 @@ const { predictions, error } = usePlacesAutocomplete(searchValue, {
 | Argument                           | TypeScript Type              | JavaScript Type | Description                                        |
 | ---------------------------------- | ---------------------------- | --------------- | -------------------------------------------------- |
 | userInput                          | string                       | string          | A search query provided by a user.                 |
-| options (optional)                 | UsePlacesAutocompleteOptions | object          | Options for the google places autocomplete service |
+| options (optional)                 | UsePlacesAutocompleteOptions | object          | Options for the google places autocomplete service [full list available here](https://developers.google.com/maps/documentation/javascript/reference/places-autocomplete-service#AutocompletionRequest) |
 | options.debounceTimeout (optional) | number                       | number          | Length of time to wait for the debounce            |
