@@ -1,4 +1,4 @@
-/// <reference types="googlemaps" />
+// @ts-ignore
 import { useEffect, useState } from 'react'
 
 export const googleAutocomplete = async (
@@ -34,8 +34,10 @@ export const googleAutocomplete = async (
 
 type HookError = string
 
+type AutocompleteOptionsWithoutInput = Omit<google.maps.places.AutocompletionRequest, "input">;
+
 interface UsePlacesAutocompleteOptions
-  extends google.maps.places.AutocompletionRequest {
+  extends AutocompleteOptionsWithoutInput {
   debounceTimeout?: number
 }
 
