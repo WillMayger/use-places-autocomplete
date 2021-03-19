@@ -1,4 +1,3 @@
-/// <reference types="googlemaps" />
 import { useEffect, useState } from 'react'
 
 export const googleAutocomplete = async (

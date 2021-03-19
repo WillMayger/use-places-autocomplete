@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
-    "types": ["googlemaps", "es2020"]
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es2018", "dom"],
+    "declaration": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
   }
 }
